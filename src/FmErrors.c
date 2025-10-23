@@ -8,14 +8,14 @@
 -----------------------------------------------------------------------------*/
 
 #include <errno.h>
-
+#include <stdlib.h>
 #include <X11/Intrinsic.h>
 #include <X11/StringDefs.h>
 #include <X11/Shell.h>
 #include <X11/Xaw/Form.h>
 #include <X11/Xaw/Label.h>
 #include <X11/Xaw/Box.h>
-
+#include <string.h>
 #include "Am.h"
 #include "Fm.h"
 
@@ -167,7 +167,7 @@ void sysError(String string1)
   if (!error_flag) /* recursive errors are possible - we just ignore them */
     return;
   XtVaSetValues(errors.label1, XtNlabel, string1, NULL);
-  XtVaSetValues(errors.label2, XtNlabel, sys_errlist[errno], NULL);
+	XtVaSetValues(errors.label2, XtNlabel, strerror(errno), NULL);
   popupByCursor(errors.shell, XtGrabExclusive);
   untilOk();
 }

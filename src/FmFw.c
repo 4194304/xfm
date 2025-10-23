@@ -14,6 +14,7 @@
   different enhancements (see README-NEW).
 
 -----------------------------------------------------------------------------*/
+#include <stdlib.h>
 
 #include <pwd.h>
 #include <time.h>

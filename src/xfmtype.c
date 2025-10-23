@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 extern void magic_parse_file();
 extern int magic_get_type();
 
