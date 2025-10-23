@@ -134,7 +134,7 @@ XAWLIBDIR = -L/usr/X11R6/lib */
 
 /* Use a text widget to log output of child processes **********************
  */
-#define USE_LOG
+/* #define USE_LOG */
 
 /* Try to be nice to the colormap ******************************************
  *
