@@ -19,7 +19,7 @@ XFMLIBDIR = $(LIBDIR)/xfm
    (see below).
 */
 
-#define XPM
+/* #define XPM */
 
 XPMINCDIR =
 XPMLIBDIR =
@@ -53,11 +53,9 @@ XAWLIBDIR = -L/usr/X11R6/lib */
    to be installed, along with the corresponding configuration files. It also
    changes some settings in the app-defaults file. You might wish to comment
    this out, e.g., if the new icons eat up too much color cells on your
-   system. 
+   system. */
 
-If you want to use the colored icons uncomment #define USE_3DICONS */
-
-/* #define USE_3DICONS */
+#define USE_3DICONS
 
 /* Different new features *************************************************/
 /* ====================== *************************************************/
