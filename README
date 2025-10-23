@@ -3,7 +3,7 @@ I have no guarantees if it'll work on Arch or other distros. I have it so it com
 with monochrome icons by default and use normal libXaw (the 2D version). You can simply
 uncomment the lines in Imake.options to make it compile with Xaw3d and the colored icons.
 
-This is the original description from the project's README.MD:
+This is the original description from the project's README:
 
 	XFM - The X File Manager (ver 1.4.3)
 	------------------------------------
