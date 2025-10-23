@@ -29,7 +29,7 @@ XPMLIBDIR =
    option also causes some Xaw3d-specific resources to be included in the
    appdefaults file. 
 
-If you want to use Xaw3d, get rid of the /* */ containing #define XAW3d and
+If you want to use Xaw3d, get rid of the bits containing #define XAW3d and
 the XAWLIBDIR statement, otherwise you'll get flat styling similar to how
 xfontsel and xedit are */
 
