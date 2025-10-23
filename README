@@ -1,7 +1,7 @@
 This repository is a very small few patches to get xfm to compile on Void Linux, and
-I have no guarantees if it'll work on Arch or other distros. I have it so it compiles
-with monochrome icons by default and use normal libXaw (the 2D version). You can simply
-uncomment the lines in Imake.options to make it compile with Xaw3d and the colored icons.
+I have no guarantees if it'll work on Arch or other distros. I have it so it compiles 
+with normal Xaw (2d Xaw like what xfontsel uses), but you can uncomment the lines for 
+Xaw3d if you want to do that.
 
 This is the original description from the project's README:
 
