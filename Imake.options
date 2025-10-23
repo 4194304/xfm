@@ -19,7 +19,7 @@ XFMLIBDIR = $(LIBDIR)/xfm
    (see below).
 */
 
-/* #define XPM */
+#define XPM
 
 XPMINCDIR =
 XPMLIBDIR =
