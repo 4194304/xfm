@@ -27,12 +27,16 @@ XPMLIBDIR =
 /* Use Xaw3d instead of Xaw (recommended). If this option is enabled, you
    should also set XAWINCDIR, XAWLIBDIR accordingly. Note: the use of this
    option also causes some Xaw3d-specific resources to be included in the
-   appdefaults file. */
+   appdefaults file. 
 
-#define XAW3D
+If you want to use Xaw3d, get rid of the /* */ containing #define XAW3d and
+the XAWLIBDIR statement, otherwise you'll get flat styling similar to how
+xfontsel and xedit are */
+
+/* #define XAW3D
 
 XAWINCDIR = -I/usr/X11R6/include/X11/Xaw3d
-XAWLIBDIR = -L/usr/X11R6/lib
+XAWLIBDIR = -L/usr/X11R6/lib */
 
 /* Magic headers. *********************************************************/
 
@@ -49,9 +53,11 @@ XAWLIBDIR = -L/usr/X11R6/lib
    to be installed, along with the corresponding configuration files. It also
    changes some settings in the app-defaults file. You might wish to comment
    this out, e.g., if the new icons eat up too much color cells on your
-   system. */
+   system. 
 
-#define USE_3DICONS
+If you want to use the colored icons uncomment #define USE_3DICONS */
+
+/* #define USE_3DICONS */
 
 /* Different new features *************************************************/
 /* ====================== *************************************************/
